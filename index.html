@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly To-Do List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            border-radius: 10px;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        
+        h3 {
+            font-weight: 400;
+            margin: 10px 0 0;
+            opacity: 0.9;
+        }
+        
+        .day-section {
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .day-header {
+            padding: 15px 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .monday {
+            background-color: #4CAF50;
+        }
+        
+        .tuesday {
+            background-color: #2196F3;
+        }
+        
+        .wednesday {
+            background-color: #FF9800;
+        }
+        
+        .thursday {
+            background-color: #E91E63;
+        }
+        
+        .friday {
+            background-color: #9C27B0;
+        }
+        
+        .saturday {
+            background-color: #00BCD4;
+        }
+        
+        .sunday {
+            background-color: #F44336;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background-color: #f1f1f1;
+            color: #555;
+            font-weight: 600;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .empty-day {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            color: #888;
+            font-style: italic;
+        }
+        
+        .date-info {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weekly To-Do List</h1>
+            <h3>March 01 - March 07, 2025</h3>
+        </header>
+        
+        <!-- Monday -->
+        <div class="day-section">
+            <div class="day-header monday">
+                <span>Monday</span>
+                <span class="date-info">March 01, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 PM - 4:00 AM</td>
+                        <td>Working</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 AM - 5:00 AM</td>
+                        <td>Praying</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM - 8:00 AM</td>
+                        <td>Working</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM - 2:30 PM</td>
+                        <td>Sleeping</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Gym - Chest Day</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>Cardio</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM - 7:30 PM</td>
+                        <td>Working</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM - 9:30 PM</td>
+                        <td>Tarawih</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Tuesday -->
+        <div class="day-section">
+            <div class="day-header tuesday">
+                <span>Tuesday</span>
+                <span class="date-info">March 02, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 PM - 4:00 AM</td>
+                        <td>Working</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 AM - 5:00 AM</td>
+                        <td>Praying</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM - 8:00 AM</td>
+                        <td>Working</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM - 2:30 PM</td>
+                        <td>Sleeping</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Cardio</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>Stretching</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM - 7:30 PM</td>
+                        <td>Working</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM - 9:30 PM</td>
+                        <td>Tarawih</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Wednesday -->
+        <div class="day-section">
+            <div class="day-header wednesday">
+                <span>Wednesday</span>
+                <span class="date-info">March 03, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Gym - Back Day</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Thursday -->
+        <div class="day-section">
+            <div class="day-header thursday">
+                <span>Thursday</span>
+                <span class="date-info">March 04, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 PM - 4:00 AM</td>
+                        <td>Working</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 AM - 5:00 AM</td>
+                        <td>Praying</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM - 8:00 AM</td>
+                        <td>Working</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM - 2:30 PM</td>
+                        <td>Sleeping</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Cardio</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>Stretching</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM - 7:30 PM</td>
+                        <td>Working</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM - 9:30 PM</td>
+                        <td>Tarawih</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Friday -->
+        <div class="day-section">
+            <div class="day-header friday">
+                <span>Friday</span>
+                <span class="date-info">March 05, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Gym - Legs Day</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Saturday -->
+        <div class="day-section">
+            <div class="day-header saturday">
+                <span>Saturday</span>
+                <span class="date-info">March 06, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 PM - 4:00 AM</td>
+                        <td>Working</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 AM - 5:00 AM</td>
+                        <td>Praying</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM - 8:00 AM</td>
+                        <td>Working</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM - 2:30 PM</td>
+                        <td>Sleeping</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Cardio</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>Stretching</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM - 7:30 PM</td>
+                        <td>Working</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM - 9:30 PM</td>
+                        <td>Tarawih</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Sunday -->
+        <div class="day-section">
+            <div class="day-header sunday">
+                <span>Sunday</span>
+                <span class="date-info">March 07, 2025</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 PM - 4:00 AM</td>
+                        <td>Working</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 AM - 5:00 AM</td>
+                        <td>Praying</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM - 8:00 AM</td>
+                        <td>Working</td>
+                        <td>2 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM - 2:30 PM</td>
+                        <td>Sleeping</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM - 4:30 PM</td>
+                        <td>Cardio</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>Stretching</td>
+                        <td>1 hour</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM - 7:30 PM</td>
+                        <td>Working</td>
+                        <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM - 9:30 PM</td>
+                        <td>Tarawih</td>
+                        <td>1 hour 30 mins</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Summary Section -->
+    <div class="container">
+        <div class="day-section">
+            <div class="day-header" style="background: linear-gradient(135deg, #333 0%, #666 100%);">
+                <span>Weekly Summary</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Total Time</th>
+                        <th>Daily Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Working</strong></td>
+                        <td>59 hours 30 minutes</td>
+                        <td>8 hours 30 minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sleeping</strong></td>
+                        <td>42 hours</td>
+                        <td>6 hours</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stretching</strong></td>
+                        <td>4 hours</td>
+                        <td>34 minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gym</strong></td>
+                        <td>4 hours 30 minutes</td>
+                        <td>39 minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cardio</strong></td>
+                        <td>6 hours</td>
+                        <td>51 minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Praying/Tarawih</strong></td>
+                        <td>17 hours 30 minutes</td>
+                        <td>2 hours 30 minutes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
